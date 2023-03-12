@@ -5,3 +5,68 @@
   margin: 0;
   padding: 0;
 }
+body{    
+    display: flex;  
+    justify-content: center;
+    background-color:#F7F2DE;
+    padding: 0 0.625rem;
+}
+input {
+       display: none;
+}
+.name_memes .xmark-solid{
+    display: none;
+}
+.check:checked ~.toggle .img_memes{
+    width: 100%;
+    margin: 1rem auto;
+    transition: .5s;
+    
+}
+.check:checked ~ .toggle .plus{
+    display: none;
+}
+.check:checked ~ .toggle .xmark-solid{
+    display: block;
+}
+.img_memes{
+    display: flex;
+    width: 50%;
+    max-width: 24rem;
+    height: auto;
+    /* margin: 1rem auto; */
+   
+}
+.memes{
+       width:100%;
+    max-width: 24rem;
+    
+    border-top: 0.15rem solid blueviolet;
+    }
+.memes .img_memes {
+    width: 0%;
+    margin: 0;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Rubik Iso', cursive;
+}
+p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.name_memes{
+    display: flex;
+    justify-content: space-between;
+    transition: .3s;
+}
+.name_memes .xmark-solid{
+    display: none;
+}
+.plus {
+    width: 1rem;
+}
+.xmark-solid{
+    width: 0.8rem;
+}
