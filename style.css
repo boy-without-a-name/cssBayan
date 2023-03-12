@@ -85,7 +85,7 @@ p{
         max-width: 40rem;
     }
 }
- @media (min-width: 820px) {
+ @media (min-width: 821px) {
     main{
         width: 100%;
         max-width:80rem;
